@@ -1,0 +1,8 @@
+my_string = input("Введите текст: ")
+print("Количество символов тексте: ", len(my_string.replace(" ","")))
+print("Вывод в верхном регистре: ",my_string.upper())
+print("Вывод в нижнем регистре: ",my_string.lower())
+print("Текст без пробелов: ",my_string.replace(" ",""))
+print("Убираем первый символ текста: ",my_string [1:])
+print("Убираем последний символ теста: ",my_string [0:-1])
+print("Перевернем текст: ",my_string[::-1])
